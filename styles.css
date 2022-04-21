@@ -1,0 +1,175 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.welcoming-page, .about-page, .projects-page, .comfort-page {
+    background-color: #ffdc22;
+}
+
+.welcoming-page img {
+    padding-top: 6rem;
+    margin: 0;
+}
+
+.title span {
+    color: red;
+}
+
+.title {
+    font-size: 6rem;
+    padding-top: 10rem;
+    padding-right: 6rem;
+    text-align: right;
+}
+
+footer {
+    background-color: #27b7cd;
+    height : 200px;
+}
+
+.bi {
+    font-size: 30px;
+    color: black;
+    margin: 0 8px;
+}
+
+.copyright {
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* source: https://codepen.io/stephenpaton-tech/full/JjRvGmY */
+/* Scrollbar */
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffdc22;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffdc22;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffdc22;
+  }
+
+.about-page img {
+    margin-top: 6rem;
+
+}
+
+.about-page h1 {
+    margin-top: 1rem;
+}
+
+.about-page p {
+    font-size: 20px;
+    padding: 0 1rem;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #000000;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.button:hover {
+    transition: all 0.3s ease;
+    background-color: #27b7cd;
+    color: #000000;
+}
+
+.projects-page h1 {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.projects-page span {
+    color: #27b7cd;
+    font-style: italic;
+}
+
+.projects-page .card {
+    margin: 2rem 2rem 0 2rem;
+    background-color: #ffdc22;
+}
+
+.projects-page .card:hover {
+    background-color: #27b7cd;
+}
+
+.card-body span {
+    color: red;
+}
+
+.card-body h4 {
+    letter-spacing: 4px;
+}
+
+.comfort-page h1 {
+    margin: 6rem 2rem 0 2rem;
+}
+
+.comfort-page p {
+    margin: 3rem;
+    font-size: 22px;
+    text-align: justify;
+    font-style: italic;
+}
+
+
+/* Web Responsiveness */
+
+@media all and (max-width: 1000px) {
+    .title {
+        font-size: 20px;
+        padding: 0;
+        margin-top: 10rem;
+        margin-right: 2rem;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media all and (max-width: 670px) {
+    .title {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .title h1 {
+        font-size: 32px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        margin-top: -1px;
+    }
+
+}
