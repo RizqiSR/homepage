@@ -171,5 +171,8 @@ footer {
     footer {
         margin-top: -1px;
     }
+    
+    .about-page img {
+        width: 200px;
 
 }
